@@ -1,0 +1,167 @@
+/* ============================================================
+   skills.css
+   Technical Skills section
+   ============================================================ */
+
+.skills {
+  background: var(--bg-surface);
+  position: relative;
+}
+
+.skills::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--bg-border), transparent);
+}
+
+.skills::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--bg-border), transparent);
+}
+
+.skills .section-label,
+.skills .section-title {
+  display: block;
+  text-align: center;
+}
+
+/* Grid of skill categories */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-5);
+}
+
+/* Individual category card */
+.skill-category {
+  background: var(--bg-base);
+  border: 1px solid var(--bg-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  transition: border-color var(--transition-base), transform var(--transition-base);
+  animation-delay: var(--delay, 0s);
+}
+
+.skill-category:hover {
+  border-color: rgba(245, 166, 35, 0.4);
+  transform: translateY(-4px);
+}
+
+.skill-cat-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+.skill-cat-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.skill-cat-header h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-weight: var(--fw-bold);
+  color: var(--text-primary);
+}
+
+/* Tag Cloud */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.skill-tag {
+  display: inline-block;
+  font-size: var(--text-xs);
+  font-weight: var(--fw-medium);
+  color: var(--text-secondary);
+  background: var(--bg-elevated);
+  border: 1px solid var(--bg-border);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  transition: all var(--transition-fast);
+  cursor: default;
+}
+
+.skill-tag:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+/* Highlighted tags (primary frameworks) */
+.skill-tag.highlight {
+  color: var(--accent);
+  border-color: rgba(245, 166, 35, 0.3);
+  background: var(--accent-dim);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ==========================
+   Skills Legend
+========================== */
+
+.skills-legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px 18px;
+
+  background: var(--bg-base);
+  border: 1px solid var(--bg-border);
+  border-radius: 999px;
+
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.legend-tag {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.legend-tag.learning {
+  background: var(--accent);
+  box-shadow: 0 0 12px rgba(245, 166, 35, 0.5);
+}
+
+.legend-tag.proficient {
+  background: var(--bg-elevated);
+  border: 1px solid var(--bg-border);
+}

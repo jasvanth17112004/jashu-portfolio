@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jasvanth | AI & ML Engineer</title>
+  <meta name="description" content="Aspiring AI & Machine Learning Engineer with hands-on experience in building intelligent systems." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/skills.css" />
+  <link rel="stylesheet" href="css/experience.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+  <link rel="stylesheet" href="css/certifications.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+  <!--change---->
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-text">LS</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certs</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="https://drive.google.com/file/d/1j8D-qc8T9Ct9OTuBItLRrbAi1w3GZ35L/view?usp=sharing" target="_blank" class="btn btn-primary nav-resume-btn">Resume</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certs</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <!-- Status Badge -->
+        <div class="hero-badge reveal-up">
+          <span class="badge-dot"></span>
+          <span>Open to Opportunities</span>
+          <!-- <span class="badge-sep">•</span> -->
+          <!-- <span>Immediate Joiner</span> -->
+        </div>
+        <!-- Heading -->
+        <h1 class="hero-title reveal-up" style="--delay:0.1s">
+          Building<br/>
+          <span class="hero-title-accent">Software & AI</span><br/>
+          Solutions That<br/>
+          <span class="hero-title-outline">Matter</span>
+        </h1>
+        <!-- CTA Buttons -->
+        <div class="hero-cta reveal-up" style="--delay:0.3s">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+        </div>
+        <!-- Social Links -->
+        <div class="hero-socials reveal-up" style="--delay:0.4s">
+          <a href="mailto:lsjasvanth17@gmail.com" class="social-link" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </a>
+          <a href="https://github.com/jasvanth17112004" target="_blank" class="social-link" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/lingam-souruba-jasvanth-026a25328" target="_blank" class="social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://leetcode.com/u/Q0WEubHkK4/" target="_blank" class="social-link" aria-label="LeetCode">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H19.7a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
+          </a>
+        </div>
+      </div>
+      <!-- Hero Portrait Area -->
+      <div class="hero-visual reveal-right">
+        <div class="portrait-wrapper">
+            <img
+              src="assets/images/portrait2.jpeg"
+              alt="Jasvanth - AI & ML Engineer"
+              class="portrait-img"
+            />
+          <div class="portrait-ring"></div>
+          <div class="portrait-glow-blob"></div>
+        </div>
+      </div>
+    </div>  
+  </section>
+
+  <!-- ==================== TICKER / MARQUEE ==================== -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <span>Python</span><span class="ticker-dot">✦</span>
+      <span>TensorFlow</span><span class="ticker-dot">✦</span>
+      <span>PyTorch</span><span class="ticker-dot">✦</span>
+      <span>LangChain</span><span class="ticker-dot">✦</span>
+      <span>React JS</span><span class="ticker-dot">✦</span>
+      <span>Generative AI</span><span class="ticker-dot">✦</span>
+      <span>Node.js</span><span class="ticker-dot">✦</span>
+      <span>FastAPI</span><span class="ticker-dot">✦</span>
+      <span>Scikit-learn</span><span class="ticker-dot">✦</span>
+      <span>Docker</span><span class="ticker-dot">✦</span>
+      <span>MongoDB</span><span class="ticker-dot">✦</span>
+      <span>Hugging Face</span><span class="ticker-dot">✦</span>
+      <!-- Duplicate for seamless loop -->
+      <span>Python</span><span class="ticker-dot">✦</span>
+      <span>TensorFlow</span><span class="ticker-dot">✦</span>
+      <span>PyTorch</span><span class="ticker-dot">✦</span>
+      <span>LangChain</span><span class="ticker-dot">✦</span>
+      <span>React JS</span><span class="ticker-dot">✦</span>
+      <span>Generative AI</span><span class="ticker-dot">✦</span>
+      <span>Node.js</span><span class="ticker-dot">✦</span>
+      <span>FastAPI</span><span class="ticker-dot">✦</span>
+      <span>Scikit-learn</span><span class="ticker-dot">✦</span>
+      <span>Docker</span><span class="ticker-dot">✦</span>
+      <span>MongoDB</span><span class="ticker-dot">✦</span>
+      <span>Hugging Face</span><span class="ticker-dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">About Me</div>
+      <div class="about-grid">
+        <div class="about-left reveal-left">
+          <h2 class="section-title">Turning Data Into<br/><span class="accent">Intelligence</span></h2>
+          <p class="about-desc">
+            I'm <strong>Jasvanth</strong>, a 21 years old B.Tech Advanced Computer Science student at Alliance University, Bengaluru, expected to graduate July 2026.
+          </p>
+          <p class="about-desc">
+            Dedicated to advancing the field of <strong>Software Development</strong>, especially in the intersection of <strong>Generative AI</strong>, <strong>Machine Learning</strong>, and <strong>Full-Stack Development</strong>. Passionate about Artificial Intelligence, with a keen interest in emerging technologies, innovations, and the development of intelligent systems that drive meaningful impact across industries and society.
+          </p>
+          <p class="about-desc">
+            <strong>Python</strong> and <strong>Swift</strong> are my preferred programming languages. Python's expressive syntax and expansive ecosystem and Swift's performance-oriented architecture and rigorous safety mechanisms collectively provide a powerful foundation for innovation, enabling the development of intelligent and impactful software solutions that address complex real-world challenges.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num">8.2</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">2</span>
+              <span class="stat-label">Internships</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">2+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+          </div>
+          <a href="https://drive.google.com/file/d/1j8D-qc8T9Ct9OTuBItLRrbAi1w3GZ35L/view?usp=sharing" target="_blank" class="btn btn-primary">Download Resume</a>
+        </div>
+        <div class="about-right reveal-right">
+          <div class="strengths-grid">
+            <div class="strength-card">
+              <div class="strength-icon">🎯</div>
+              <h4>Leadership</h4>
+              <p>Taking charge when teams need direction, boosting morale and ensuring quality outcomes.</p>
+            </div>
+            <div class="strength-card">
+              <div class="strength-icon">🗣️</div>
+              <h4>Communication</h4>
+              <p>Presenting ideas clearly, influencing decisions through logic and confidence.</p>
+            </div>
+            <div class="strength-card">
+              <div class="strength-icon">⚡</div>
+              <h4>Adaptive Risk-Taking</h4>
+              <p>Exploring new approaches, stepping outside comfort zones, and learning fast from outcomes.</p>
+            </div>
+            <div class="strength-card">
+              <div class="strength-icon">🧘</div>
+              <h4>Composure Under Pressure</h4>
+              <p>Maintaining focus, clarity, and sharp decision-making even in high-pressure environments.</p>
+            </div>
+            <div class="strength-card">
+              <div class="strength-icon">💡</div>
+              <h4>High EI</h4>
+              <p>Strong emotional intelligence ensuring healthy team dynamics and collaboration.</p>
+            </div>
+            <div class="strength-card">
+              <div class="strength-icon">📚</div>
+              <h4>Continuous Learning</h4>
+              <p>Staying updated with the latest in AI, ML, and software development trends.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS SECTION ==================== -->
+  <section class="skills section" id="skills">
+    
+    <div class="container">
+      <h2 class="section-title centered reveal-up">Skills &amp; <span class="accent">Tools</span></h2>
+      <div class="skills-legend reveal-up">
+      <div class="legend-item">
+        <span class="legend-tag learning"></span>
+        <span>Actively Learning & Expanding</span>
+      </div>
+
+      <div class="legend-item">
+        <span class="legend-tag proficient"></span>
+        <span>Proficient & Applied in Projects</span>
+      </div>
+    </div>
+      <div class="skills-grid">
+
+        <!-- Languages -->
+        <div class="skill-category reveal-up" style="--delay:0s">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">💻</span>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Swift</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag highlight">PHP</span>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="skill-category reveal-up" style="--delay:0.1s">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🚀</span>
+            <h3>Frameworks</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag ">TensorFlow</span>
+            <span class="skill-tag ">Scikit-learn</span>
+            <span class="skill-tag ">Pytorch</span>
+            <span class="skill-tag ">FastAPI</span>
+            <span class="skill-tag">Flask</span>
+            <span class="skill-tag ">LangChain</span>
+            <span class="skill-tag">Gradio UI</span>
+            <span class="skill-tag ">NumPy</span>
+            <span class="skill-tag ">Pandas</span>
+            <span class="skill-tag highlight">ReactJS</span>
+            <span class="skill-tag highlight">NodeJS</span>
+            <span class="skill-tag highlight">ExpressJS</span>
+          </div>
+        </div>
+
+        <!-- AI / ML -->
+        <div class="skill-category reveal-up" style="--delay:0.2s">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🤖</span>
+            <h3>AI / ML</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag ">Generative AI</span>
+            <span class="skill-tag ">LLMs</span>
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Deep Learning</span>
+            <span class="skill-tag">Hugging Face</span>
+            <span class="skill-tag highlight">Prompt Engineering</span>
+          </div>
+        </div>
+
+        <!-- Tools & Platforms -->
+        <div class="skill-category reveal-up" style="--delay:0.3s">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🛠️</span>
+            <h3>Tools &amp; Platforms</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">N8N</span>
+            <span class="skill-tag">Jira</span>
+            <span class="skill-tag">XAMPP</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">MS Excel</span>
+          </div>
+        </div>
+
+        <!-- IDEs -->
+        <div class="skill-category reveal-up" style="--delay:0.4s">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">⚙️</span>
+            <h3>IDEs</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Xcode</span>
+            <span class="skill-tag">PyCharm</span>
+            <span class="skill-tag">IntelliJ IDEA</span>
+            <span class="skill-tag">Jupyter</span>
+            <span class="skill-tag">Google Colab</span>
+          </div>
+        </div>
+
+        <!-- Course Curriculum -->
+        <div class="skill-category reveal-up" style="--delay:0.5s">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">📖</span>
+            <h3>Coursework</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">DSA</span>
+            <span class="skill-tag">DBMS</span>
+            <span class="skill-tag">OS</span>
+            <span class="skill-tag">Computer Networks</span>
+            <span class="skill-tag">Agile / SDLC</span>
+            <span class="skill-tag">AI</span>
+            <span class="skill-tag">ML</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE SECTION ==================== -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-label reveal-up">Work History</div>
+      <h2 class="section-title reveal-up">Experience &amp; <span class="accent">Internships</span></h2>
+      <div class="timeline">
+
+        <!-- Experience Item 1 -->
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-meta">
+                <h3 class="timeline-role">Generative AI Intern</h3>
+                <span class="timeline-company">RedMind Technologies</span>
+              </div>
+              <div class="timeline-date">
+                <span>Jun 2025 – Jul 2025</span>
+                <a href="https://drive.google.com/file/d/1jVPmM3HgHi2LoXPySZO3e1m6C-DtlhIM/view?usp=sharing" class="cert-badge">Certificate ↗</a>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Gained hands-on experience with Gen AI system architectures, analyzing model behavior, parameters, and performance trade-offs.</li>
+              <li>Designed and deployed LLM workflows using LangChain, integrating prompt chaining and memory management techniques.</li>
+              <li>Built API integrations and plugin-based extensions to connect LLMs with external services and data sources.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>LangChain</span>
+              <span>LLMs</span>
+              <span>Prompt Engineering</span>
+              <span>API Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Item 2 -->
+        <div class="timeline-item reveal-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-meta">
+                <h3 class="timeline-role">Machine Learning Intern</h3>
+                <span class="timeline-company">Plasmid</span>
+              </div>
+              <div class="timeline-date">
+                <span>Jul 2024 – Sep 2024</span>
+                <a href="https://drive.google.com/file/d/1LP_P5KBmEO9dy3XbGv2ppZNVeQb5lKhw/view?usp=sharing" class="cert-badge">Certificate ↗</a>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Executed end-to-end ML workflows covering data preprocessing, feature engineering, and supervised model training.</li>
+              <li>Evaluated model performance using accuracy, precision, recall, and F1 metrics; improved results through hyperparameter tuning.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Python</span>
+              <span>Scikit-learn</span>
+              <span>Feature Engineering</span>
+              <span>Model Evaluation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS SECTION ==================== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label reveal-up">What I've Built</div>
+      <h2 class="section-title reveal-up">Featured <span class="accent">Projects</span></h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal-up" style="--delay:0s">
+          <div class="project-card-top">
+            <div class="project-num">01</div>
+            <div class="project-links">
+              <a href="https://github.com/jasvanth17112004" target="_blank" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-icon-wrap">🎬</div>
+          <h3 class="project-title">Prompt to Animated Video Generation</h3>
+          <p class="project-desc">
+            A Deep Learning Gen-AI system that converts real-world videos into anime-styled videos using a frame-wise U-Net Generator GAN Architecture. Maintains visual consistency, realistic texture transfer, and efficient video reconstruction.
+          </p>
+          <div class="project-responsibilities">
+            <h4>Key Work</h4>
+            <ul>
+              <li>Built custom paired dataset pipeline for supervised GAN training</li>
+              <li>Designed Pix2Pix GAN with U-Net generator &amp; PatchGAN discriminator</li>
+              <li>Video pipeline with OpenCV: frame extraction → anime transform → reconstruct</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>PyTorch</span>
+            <span>Pix2Pix GAN</span>
+            <span>OpenCV</span>
+            <span>Torchvision</span>
+            <span>Apple MPS</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal-up" style="--delay:0.15s">
+          <div class="project-card-top">
+            <div class="project-num">02</div>
+            <div class="project-links">
+              <a href="https://github.com/jasvanth17112004" target="_blank" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-icon-wrap">🏥</div>
+          <h3 class="project-title">Smart Patient Monitoring System</h3>
+          <p class="project-desc">
+            An integrated system designed to optimize emergency ambulance dispatch and monitor patients in real-time, ensuring efficient healthcare response and continuous patient care.
+          </p>
+          <div class="project-responsibilities">
+            <h4>Key Work</h4>
+            <ul>
+              <li>Web-based system with Python/Flask for emergency response management</li>
+              <li>Integrated multiple datasets for hospital availability &amp; patient charts</li>
+              <li>Combined data science, web development, and real-world problem-solving</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>Pandas</span>
+            <span>Machine Learning</span>
+            <span>HTML/CSS/JS</span>
+          </div>
+        </div>
+
+      </div>
+      <!-- Add More Projects Note -->
+      <div class="projects-cta reveal-up">
+        <!--
+          =====================================================
+          ADD MORE PROJECTS HERE
+          =====================================================
+          To add more projects, copy a .project-card div above
+          and paste it inside .projects-grid in index.html,
+          updating the number, title, description, and tech tags.
+          =====================================================
+        -->
+        <p>More projects coming soon — follow along on GitHub.</p>
+        <a href="https://github.com/jasvanth17112004" target="_blank" class="btn btn-secondary">View GitHub ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CERTIFICATIONS SECTION ==================== -->
+  <section class="certifications section" id="certifications">
+    <div class="container">
+      <div class="section-label reveal-up">Credentials</div>
+      <h2 class="section-title centered reveal-up"><span class="accent">Certifications</span> &amp; Achievements</h2>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal-up" style="--delay:0s">
+          <div class="cert-logo">
+            <span class="cert-logo-text">Oracle</span>
+          </div>
+          <div class="cert-info">
+            <h4>Oracle Cloud Infrastructure 2025</h4>
+            <p>Certified Generative AI Professional</p>
+          </div>
+          <a href="https://drive.google.com/file/d/11yr9REqL6U61n53_hcghOrdup5dQiuJY/view?usp=sharing" target="_blank" class="cert-link">View ↗</a>
+        </div>
+
+        <div class="cert-card reveal-up" style="--delay:0.1s">
+          <div class="cert-logo">
+            <span class="cert-logo-text">IBM</span>
+          </div>
+          <div class="cert-info">
+            <h4>IBM</h4>
+            <p>Supervised Machine Learning</p>
+          </div>
+          <a href="https://drive.google.com/file/d/1QRdCWiy1QkJjWz1RFyX0bJksaHcEk2zA/view?usp=sharing" target="_blank" class="cert-link">View ↗</a>
+        </div>
+
+        <div class="cert-card reveal-up" style="--delay:0.2s">
+          <div class="cert-logo">
+            <span class="cert-logo-text">DB</span>
+          </div>
+          <div class="cert-info">
+            <h4>Databricks Academy</h4>
+            <p>Accredited Generative AI Professional</p>
+          </div>
+          <a href="https://drive.google.com/file/d/1Boo2QxS_07-hwcQ3sodtm3CuLDh3Jtcj/view?usp=sharing" target="_blank" class="cert-link">View ↗</a>
+        </div>
+
+        <div class="cert-card reveal-up" style="--delay:0.3s">
+          <div class="cert-logo">
+            <span class="cert-logo-text">DL.AI</span>
+          </div>
+          <div class="cert-info">
+            <h4>DeepLearning.AI</h4>
+            <p>Improving Deep Neural Networks</p>
+          </div>
+          <a href="https://drive.google.com/file/d/1nqC-cGiOwjPOA6GpZHAgmgYq-ePjfdO9/view?usp=sharing" target="_blank" class="cert-link">View ↗</a>
+        </div>
+
+        <div class="cert-card reveal-up" style="--delay:0.4s">
+          <div class="cert-logo">
+            <span class="cert-logo-text">AWS</span>
+          </div>
+          <div class="cert-info">
+            <h4>Amazon Web Services</h4>
+            <p>GenAI with Large Language Models</p>
+          </div>
+          <a href="https://drive.google.com/file/d/1WVTeXcGeuylhPdX5PpQUydnrxF-Okr4t/view?usp=sharing" target="_blank" class="cert-link">View ↗</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="section-label reveal-up">Get In Touch</div>
+        <h2 class="section-title reveal-up">Let's Build Something<br/><span class="accent">Meaningful Together.</span></h2>
+        <p class="contact-subtitle reveal-up">
+          I'm currently seeking opportunities in Software development and AI/ML engineering. Whether it's a role, a collaboration, or just a conversation — I'm open.
+        </p>
+        <div class="contact-cards reveal-up">
+          <a href="mailto:lsjasvanth17@gmail.com" class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">lsjasvanth17@gmail.com</span>
+            </div>
+            <span class="contact-card-arrow">↗</span>
+          </a>
+          <a href="tel:+916281286326" class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.1 6.1l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Phone</span>
+              <span class="contact-card-value">+91 6281286326</span>
+            </div>
+            <span class="contact-card-arrow">↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/lingam-souruba-jasvanth-026a25328" target="_blank" class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">LinkedIn</span>
+              <span class="contact-card-value">Connect with me</span>
+            </div>
+            <span class="contact-card-arrow">↗</span>
+          </a>
+          <a href="https://github.com/jasvanth17112004" target="_blank" class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">GitHub</span>
+              <span class="contact-card-value">View my repositories</span>
+            </div>
+            <span class="contact-card-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <span class="footer-logo">LS</span>
+          <p>Lingam Souruba Jasvanth</p>
+          <p>Software Developer · Bengaluru, India</p>
+        </div>
+        <div class="footer-right">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Lingam Souruba Jasvanth. Designed &amp; built with care.</span>
+        <a href="#home" class="back-to-top">↑ Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== JS FILES ==================== -->
+  <script src="js/navbar.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/cursor.js"></script>
+
+</body>
+</html>

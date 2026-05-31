@@ -1,0 +1,103 @@
+/* ============================================================
+   variables.css
+   All design tokens: colors, fonts, spacing, transitions.
+   Edit this file to change the entire theme at once.
+   ============================================================ */
+
+:root {
+  /* ── Core Background Palette (dark like dizkarthik.com) ── */
+  --bg-base:       #0a0a0f;   /* deepest background */
+  --bg-surface:    #111118;   /* card / section backgrounds */
+  --bg-elevated:   #18181f;   /* elevated cards, tooltips */
+  --bg-border:     #23232e;   /* borders */
+
+  /* ── Primary Accent (warm amber-orange, dizkarthik energy) ── */
+  --accent:        #f5a623;   /* primary accent: orange/amber */
+  --accent-light:  #ffc55e;   /* lighter hover state */
+  --accent-dim:    rgba(245, 166, 35, 0.12); /* translucent accent */
+  --accent-glow:   rgba(245, 166, 35, 0.25);
+
+  /* ── Secondary Accent (cool electric teal) ── */
+  --accent2:       #00d9c0;
+  --accent2-dim:   rgba(0, 217, 192, 0.1);
+
+  /* ── Text Colors ── */
+  --text-primary:  #f0f0f5;   /* main text */
+  --text-secondary:#9898a8;   /* supporting text */
+  --text-muted:    #5a5a6e;   /* labels, placeholders */
+
+  /* ── Semantic Colors ── */
+  --success:       #3ddc84;
+  --error:         #ff5c5c;
+
+  /* ── Typography ── */
+  --font-display:  'Syne', sans-serif;    /* headings, bold statements */
+  --font-body:     'DM Sans', sans-serif; /* body text, labels */
+
+  /* ── Font Sizes ── */
+  --text-xs:    0.75rem;
+  --text-sm:    0.875rem;
+  --text-base:  1rem;
+  --text-lg:    1.125rem;
+  --text-xl:    1.25rem;
+  --text-2xl:   1.5rem;
+  --text-3xl:   2rem;
+  --text-4xl:   2.75rem;
+  --text-5xl:   3.75rem;
+  --text-hero:  clamp(2.8rem, 7vw, 5.5rem);
+
+  /* ── Font Weights ── */
+  --fw-light:   300;
+  --fw-normal:  400;
+  --fw-medium:  500;
+  --fw-semi:    600;
+  --fw-bold:    700;
+  --fw-black:   800;
+
+  /* ── Spacing Scale ── */
+  --space-1:   0.25rem;
+  --space-2:   0.5rem;
+  --space-3:   0.75rem;
+  --space-4:   1rem;
+  --space-5:   1.25rem;
+  --space-6:   1.5rem;
+  --space-8:   2rem;
+  --space-10:  2.5rem;
+  --space-12:  3rem;
+  --space-16:  4rem;
+  --space-20:  5rem;
+  --space-24:  6rem;
+  --space-32:  8rem;
+
+  /* ── Border Radius ── */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-xl:   32px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-sm:  0 2px 8px rgba(0,0,0,0.4);
+  --shadow-md:  0 4px 24px rgba(0,0,0,0.5);
+  --shadow-lg:  0 8px 48px rgba(0,0,0,0.6);
+  --shadow-accent: 0 0 32px rgba(245, 166, 35, 0.3);
+
+  /* ── Transitions ── */
+  --transition-fast:   150ms ease;
+  --transition-base:   250ms ease;
+  --transition-slow:   450ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* ── Layout ── */
+  --max-width: 1200px;
+  --nav-height: 72px;
+  --section-gap: clamp(4rem, 10vw, 8rem);
+
+  /* ── Z-Index Scale ── */
+  --z-below:    -1;
+  --z-base:      0;
+  --z-above:     10;
+  --z-modal:     100;
+  --z-nav:       200;
+  --z-top:       999;
+}
