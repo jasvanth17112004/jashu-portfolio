@@ -66,4 +66,4 @@ All colors live in **`css/variables.css`**. Edit these variables:
 - Pure HTML5, CSS3, Vanilla JavaScript — no frameworks, no dependencies
 - Google Fonts: [Syne](https://fonts.google.com/specimen/Syne) + [DM Sans](https://fonts.google.com/specimen/DM+Sans)
 
-yeahhh folks. it is build by me
+yeahhh folks. it is built by me
